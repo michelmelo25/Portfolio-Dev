@@ -60,3 +60,7 @@ h3 {
 .grid {
   display: grid;
 }
+
+main {
+  padding-inline: 163px;
+}
