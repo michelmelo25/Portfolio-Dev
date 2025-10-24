@@ -1,10 +1,10 @@
 .works {
   padding-block: 72px 144px;
+  justify-items: center;
 }
 
 .destaques {
   column-gap: 24px;
   row-gap: 24px;
-  justify-content: center;
   grid-template-columns: repeat(3, 1fr);
 }

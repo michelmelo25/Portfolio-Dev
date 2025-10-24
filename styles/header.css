@@ -1,8 +1,7 @@
 header {
   background-image: url(../assets/imagens/Background_Intro.png);
-  background-size: contain;
   background-repeat: no-repeat;
-  object-fit: cover;
+  background-size: cover;
   padding-inline: 163px;
   padding-top: 120px;
   margin-inline: auto;
