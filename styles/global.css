@@ -49,8 +49,20 @@ h3 {
   font: var(--Subtitle);
 }
 
+h2 {
+  font: var(--Title-md);
+}
+
+.text-md {
+  font: var(--Text-md);
+}
+
 .flex {
   display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 .gap-16 {
