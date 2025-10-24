@@ -1,0 +1,77 @@
+header {
+  background-image: url(../assets/imagens/Background_Intro.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  padding-inline: 163px;
+  padding-top: 120px;
+  padding-bottom: 180px;
+  margin-inline: auto;
+  justify-items: center;
+  h3 span {
+    color: var(--red);
+  }
+
+  .profile {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+    .profile-image {
+      position: relative;
+      width: 87.27px;
+      height: 87.27px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid var(--red);
+    }
+
+    .vector {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      border: none;
+      z-index: 1;
+      bottom: -5px;
+      right: calc(50% - 96px / 2);
+    }
+  }
+
+  .info {
+    justify-items: center;
+    h1 {
+      padding-top: 8px;
+      padding-bottom: 20px;
+    }
+
+    h3 {
+      padding-top: 64px;
+    }
+
+    p {
+      font: var(--Text-sm);
+      max-width: 680px;
+      padding-bottom: 80px;
+    }
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    border-radius: 999px;
+    border: 1px solid var(--gray-400);
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+  }
+
+  .doubledown {
+    padding-top: 94px;
+    padding-bottom: 57px;
+  }
+}

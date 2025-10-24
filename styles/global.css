@@ -35,3 +35,28 @@
   --Text-md: Regular 16px/140% var(--font-Maven-Pro);
   --Text-sm: Regular 14px/140% var(--font-Maven-Pro);
 }
+
+body {
+  color: var(--gray-100);
+  background-color: var(--gray-500);
+}
+
+h1 {
+  font: var(--Title-lg);
+}
+
+h3 {
+  font: var(--Subtitle);
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.grid {
+  display: grid;
+}
