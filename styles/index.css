@@ -1,4 +1,6 @@
 @import url(global.css);
+@import url(sessions.css);
 @import url(header.css);
 @import url(works.css);
 @import url(services.css);
+@import url(contatos.css);
